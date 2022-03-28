@@ -8,3 +8,7 @@
 /httpRequests/
 
 /uiDesigner.xml
+
+
+/.idea
+/src/test
