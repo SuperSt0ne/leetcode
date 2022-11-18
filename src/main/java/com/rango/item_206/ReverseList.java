@@ -1,8 +1,6 @@
-package com.rango;
+package com.rango.item_206;
 
-import com.rango.obj.ListNode;
-
-import java.util.List;
+import com.rango.ListNode;
 
 /**
  * 反转链表
@@ -17,10 +15,10 @@ public class ReverseList {
         ListNode n3 = new ListNode(3);
         ListNode n4 = new ListNode(4);
         ListNode n5 = new ListNode(5);
-        n4.setNext(n5);
-        n3.setNext(n4);
-        n2.setNext(n3);
-        n1.setNext(n2);
+        n4.next = n5;
+        n3.next = n4;
+        n2.next = n3;
+        n1.next = n2;
         ListNode data = reverseList_1(n1);
         System.out.println(data);
     }
@@ -29,8 +27,8 @@ public class ReverseList {
         ListNode pre = null;
         ListNode cur;
         while (head != null) {
-            cur = head.getNext();
-            head.setNext(pre);
+            cur = head.next;
+            head.next = pre;
             pre = head;
             head = cur;
         }
