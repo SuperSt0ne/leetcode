@@ -1,4 +1,4 @@
-package com.rango;
+package com.rango.obj;
 
 public class ListNode {
 

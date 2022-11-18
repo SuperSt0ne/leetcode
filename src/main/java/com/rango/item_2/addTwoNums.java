@@ -1,6 +1,6 @@
 package com.rango.item_2;
 
-import com.rango.ListNode;
+import com.rango.obj.ListNode;
 
 /**
  * 两数相加

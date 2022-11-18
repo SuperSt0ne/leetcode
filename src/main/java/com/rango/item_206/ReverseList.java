@@ -1,6 +1,6 @@
 package com.rango.item_206;
 
-import com.rango.ListNode;
+import com.rango.obj.ListNode;
 
 /**
  * 反转链表
