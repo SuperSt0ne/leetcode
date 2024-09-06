@@ -6,10 +6,41 @@ package com.rango.leetcode;
 public class N0006ConvertZ {
 
     public static void main(String[] args) {
-        System.out.println(convert("PAYPALISHIRING", 3));
+        System.out.println(convert1("PAYPALISHIRING", 3));
+        System.out.println(convert2("PAYPALISHIRING", 3));
     }
 
-    public static String convert(String s, int numRows) {
+    /**
+     * 压缩矩阵空间
+     */
+    public static String convert2(String s, int numRows) {
+        int n = s.length(), r = numRows;
+        if (r == 1 || r >= n) {
+            return s;
+        }
+        StringBuilder[] mat = new StringBuilder[r];
+        for (int i = 0; i < r; i++) {
+            mat[i] = new StringBuilder();
+        }
+        for (int i = 0, x = 0, t = r * 2 - 2; i < n; ++i) {
+            mat[x].append(s.charAt(i));
+            if (i % t < r - 1) {
+                ++x;
+            } else {
+                --x;
+            }
+        }
+        StringBuilder ans = new StringBuilder();
+        for (StringBuilder row : mat) {
+            ans.append(row);
+        }
+        return ans.toString();
+    }
+
+    /**
+     * 二维矩阵模拟
+     */
+    public static String convert1(String s, int numRows) {
         int n = s.length(), r = numRows;
         if (r == 1 || r >= n) {
             return s;
