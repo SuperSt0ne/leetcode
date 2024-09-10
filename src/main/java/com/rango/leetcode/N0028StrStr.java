@@ -11,6 +11,11 @@ public class N0028StrStr {
         System.out.println(strStr("xsdleetocode", "leeto"));
     }
 
+    // TODO: 2024/9/10 KMP算法
+
+    /**
+     * 比较指针回溯
+     */
     public static int strStr(String haystack, String needle) {
         int ans = 0, n = haystack.length();
         char[] hc = haystack.toCharArray(), nc = needle.toCharArray();
