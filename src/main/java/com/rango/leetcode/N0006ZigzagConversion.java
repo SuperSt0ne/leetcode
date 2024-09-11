@@ -3,7 +3,7 @@ package com.rango.leetcode;
 /**
  * <a href="https://leetcode.cn/problems/zigzag-conversion/">Z 字形变换</a>
  */
-public class N0006ConvertZ {
+public class N0006ZigzagConversion {
 
     public static void main(String[] args) {
         System.out.println(convert1("PAYPALISHIRING", 3));

@@ -10,7 +10,7 @@ package com.rango.leetcode;
  * 只有 10 的次方（I, X, C, M）最多可以连续附加 3 次以代表 10 的倍数。你不能多次附加 5 (V)，50 (L) 或 500 (D)。如果需要将符号附加4次，请使用 减法形式。
  * 给定一个整数，将其转换为罗马数字。
  */
-public class N0012IntToRoman {
+public class N0012IntegerToRoman {
 
     public static void main(String[] args) {
         System.out.println(intToRoman(1994));
