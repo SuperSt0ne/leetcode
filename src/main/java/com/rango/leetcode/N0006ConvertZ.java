@@ -1,7 +1,7 @@
 package com.rango.leetcode;
 
 /**
- * <a href="https://leetcode.cn/problems/zigzag-conversion/description/?envType=study-plan-v2&envId=top-interview-150">Z 字形变换</a>
+ * <a href="https://leetcode.cn/problems/zigzag-conversion/">Z 字形变换</a>
  */
 public class N0006ConvertZ {
 

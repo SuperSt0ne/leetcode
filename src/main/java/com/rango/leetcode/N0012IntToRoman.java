@@ -1,9 +1,7 @@
 package com.rango.leetcode;
 
 /**
- * <a href="https://leetcode.cn/problems/integer-to-roman/description/?envType=study-plan-v2&envId=top-interview-150">
- * 整数转罗马数字
- * </a>
+ * <a href="https://leetcode.cn/problems/integer-to-roman/">整数转罗马数字</a>
  * <p>
  * 罗马数字是通过添加从最高到最低的小数位值的转换而形成的。将小数位值转换为罗马数字有以下规则：
  * <p>

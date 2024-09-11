@@ -1,7 +1,7 @@
 package com.rango.leetcode;
 
 /**
- * <a href="https://leetcode.cn/problems/longest-common-prefix/submissions/561127592/?envType=study-plan-v2&envId=top-interview-150">最长公共前缀</a>
+ * <a href="https://leetcode.cn/problems/longest-common-prefix/">最长公共前缀</a>
  */
 public class N0014LongestCommonPrefix {
 
